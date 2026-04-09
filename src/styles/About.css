@@ -1,0 +1,40 @@
+.about-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;    
+}
+
+.about-image {
+  flex: 1;           
+  width: 50%;
+  height: 600px;       
+  object-fit: cover;
+}
+
+.about-content {
+  flex: 1;             
+  padding: 0 8%;       
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content h1 {
+  font-family: sans-serif;
+  font-size: 48px;     
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.about-content p {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 40px;
+}
