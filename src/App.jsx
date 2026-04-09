@@ -5,10 +5,10 @@ import Navbar from './components/Navbar'
 import light_logo from "./assets/logo_light.png"
 import light_insta from "./assets/social_light1.png"
 import light_facebook from "./assets/social_light2.png"
-
 import dark_logo from './assets/logoDark.png'
 import dark_insta from './assets/social1.png'
 import dark_facebook from './assets/social2.png'
+
 import "./App.css";
 import About from './components/About'
 import AboutSection from './components/AboutSection'
@@ -52,9 +52,7 @@ function App() {
         logo={light_logo} 
         insta={light_insta} 
         facebook={light_facebook} 
-        color="black"
-        
-        
+        color="black" 
       />
       <About/>
       <div className='AbtSecHero'>
